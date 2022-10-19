@@ -9,7 +9,6 @@ body {
   font-family: "Open Sans", sans-serif, Arial;
 }
 #page-content-wrapper {
-  font-size: 1.4rem;
   font-weight: 400;
   color: var(--text-color);
   max-width: 1200px;
