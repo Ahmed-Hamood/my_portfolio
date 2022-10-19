@@ -224,7 +224,7 @@ body {
 
 .cv-main-title .spec2 {
   margin-top: 8px;
-  font-size: 40%;
+  font-size: 50%;
   color: #ff4d4d;
   opacity: 0;
   animation: cv_main_titles 0.5s cubic-bezier(0.63, 0.03, 0.24, 1.25) 2s forwards;
