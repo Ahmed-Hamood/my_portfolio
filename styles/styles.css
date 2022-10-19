@@ -388,6 +388,11 @@ body {
   .main-user-container {
     display: block;
   }
+  
+  .cv-user-info-container ul li text {
+    font-size: 75%;
+  }
+  
   .cv-user-image-container img {
     width: 100%;
   }
