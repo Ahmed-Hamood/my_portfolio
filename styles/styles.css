@@ -303,6 +303,7 @@ body {
 
 .cv-user-info-container ul li .lang-group text {
   font-size: 85%;
+    font-weight: 500;
   padding: 3px 8px;
 }
 
@@ -393,6 +394,10 @@ body {
     font-size: 75%;
   }
   
+  .cv-user-info-container ul li .lang-group text {
+    font-weight: 400;
+  }
+
   .cv-user-image-container img {
     width: 100%;
   }
