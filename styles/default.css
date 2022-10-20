@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: "Segoe UI", "Source Sans Pro", sans-serif;
+  color: #353b48;
+  background: var(--body-container);
+  -webkit-tap-highlight-color: rgba(248, 14, 14, 0);
+  font-stretch: 100%;
+  vertical-align: baseline;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Scroll bar style */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body-container);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8aad0d;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
