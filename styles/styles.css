@@ -211,8 +211,9 @@ body {
 /* #region >>> list content <<<*/
 
 .list-content {
-  font-size: 75%;
-  margin: calc(1.2 * 1.4rem) 0;
+  font-size: 80%;
+  margin: calc(1.2 * 1rem) 0;
+  font-weight: 500;
   padding: 5px;
   padding-left: 0;
 }
